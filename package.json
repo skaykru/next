@@ -1,0 +1,48 @@
+{
+  "name": "nextjs-medium-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "npx prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.5.0",
+    "@trpc/client": "^10.42.0",
+    "@trpc/next": "^10.43.0",
+    "@trpc/react-query": "^10.43.1",
+    "@trpc/server": "^10.42.0",
+    "@types/node": "20.8.7",
+    "@types/react": "18.2.31",
+    "@types/react-dom": "18.2.14",
+    "autoprefixer": "10.4.16",
+    "bcrypt": "^5.1.1",
+    "dayjs": "^1.11.10",
+    "eslint": "8.52.0",
+    "eslint-config-next": "13.5.6",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "next": "13.5.6",
+    "nextjs-progressbar": "^0.0.16",
+    "postcss": "8.4.31",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.47.0",
+    "react-toastify": "^9.1.3",
+    "superjson": "^2.2.0",
+    "tailwind-variants": "^0.1.17",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/bcrypt": "^5.0.1",
+    "@types/js-cookie": "^3.0.5",
+    "@types/jsonwebtoken": "^9.0.4",
+    "prettier-plugin-tailwindcss": "^0.5.6"
+  }
+}
